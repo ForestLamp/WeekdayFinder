@@ -9,6 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dateTF: UIView!
+    @IBOutlet weak var monthTF: UIView!
+    @IBOutlet weak var yearTF: UIView!
+    
+    @IBOutlet weak var resultLabel: UIView!
+    
+    @IBAction func findDay() {
+        
+    }
+    
+    
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
